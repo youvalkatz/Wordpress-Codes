@@ -1,0 +1,17 @@
+1. Insert to functions.php:
+
+function translate_date_format($format) {
+    if (function_exists('icl_translate')) {
+        icl_register_string('Formats', 'Date Format', $format);
+        $format = icl_translate('Formats', 'Date Format', $format);
+    }
+    return $format;
+}
+add_filter('option_date_format', 'translate_date_format');
+
+
+do_action( 'wpml_register_single_string', 'Formats',$format, $format);
+
+
+2. Install "String Translation" > Go there and search "Formats" > Translate Hebrew format to: F j, Y
+3. If Months and Days names are still in English > Need to insert he_IL.mo, he_IL.po files to wp-content/languages
