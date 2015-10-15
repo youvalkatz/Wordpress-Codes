@@ -1,0 +1,12 @@
+<script type="text/javascript">
+//=================================== SMOOTH SCROLLING EXTERNAL ANCHOR //      
+(function($){
+  $(document).on("ready", function () {
+      var urlHash = window.location.href.split("#")[1];
+      $('html,body').animate({
+          scrollTop: $('.' + urlHash + ', #' + urlHash +',[name='+urlHash+']').first().offset().top <?php echo $scroll_length; ?>
+      }, 1000);
+  });
+ 
+})(jQuery);
+</script>
