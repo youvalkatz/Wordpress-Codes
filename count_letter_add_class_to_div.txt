@@ -1,0 +1,22 @@
+// Add class "s1/s2/s3" to element by length.
+
+<?php
+  $title = get_the_title();
+  $title_size = strlen(strip_tags($title));
+  $value = strlen(strip_tags($title));
+  $title_size = get_title_size_by_length($title_size);
+?>
+
+
+<div class="<?php echo $title_size; ?> <?php echo $value; ?>"></div>
+
+
+
+
+// ADD TO FUNCTIONS.PHP
+
+function get_title_size_by_length($length) {
+	if ($length < 25) { return "s1"; }
+	elseif ( ($length >= 25) && ($length <= 34) ) { return "s2"; }
+	return "s3";
+}
