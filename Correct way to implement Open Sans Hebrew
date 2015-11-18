@@ -14,11 +14,11 @@ font-face {
 	font-family:'Open Sans Hebrew';
 	font-style:normal;
 	font-weight:700;
-	src:url(http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Bold.eot);
-	src:url(http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Bold.eot?#iefix)
-		format("embedded-opentype"),url(http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Bold.woff2)
-		format("woff2"),url(http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Bold.woff)
-		format("woff"),url(http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Bold.ttf)
+	src:url("http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Bold.eot");
+	src:url("http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Bold.eot?#iefix")
+		format("embedded-opentype"),url("http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Bold.woff2")
+		format("woff2"),url("http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Bold.woff")
+		format("woff"),url("http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Bold.ttf")
 		format("truetype")
 }
 
